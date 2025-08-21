@@ -597,13 +597,16 @@ nav {
 
 .card i {
     padding: 10px;
-    font-size: 25px;
+    font-size: 18px;
     border-radius: 50%;
     border: solid rgba(173, 168, 168, 0.865) 1px;
 
 }
 
 .card p {
+    font-size: 18px;
+}
+.card h1{
     font-size: 20px;
 }
 
@@ -773,7 +776,7 @@ nav {
 
 .slidesectionmain .left h1 {
     font-size: 70px;
-    max-width: 760px;
+    max-width: 530px;
     line-height: 0.8;
     word-spacing: -7px;
     font-weight: 900;
@@ -901,7 +904,7 @@ nav {
     position: relative;
 
 
-    padding: 100px 0px;
+    padding: 0px 0px;
 
     /* display: flex;
     justify-content: center;
@@ -913,6 +916,7 @@ nav {
     width: 100%;
 
     position: absolute;
+    object-fit: cover;
     z-index: -2;
     height: 100%;
 
@@ -993,6 +997,7 @@ nav {
     display: flex;
     background-color: rgba(244, 230, 213, 0.358);
     justify-content: center;
+    
 
 
 
@@ -1282,6 +1287,10 @@ footer {
         text-align: center;
         line-height: 0.9;
 
+    }
+    footer{
+        display: flex;
+        justify-content: center;
     }
 
 

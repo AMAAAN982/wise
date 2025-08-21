@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/wise copy.css">
     <link rel="stylesheet" href="/global.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -19,7 +19,7 @@
                     <figure>
                         <img src="/images/Wise_Symbol_1.png" alt="">
                     </figure>
-                <h1>WISE</h1>
+                    <h1>WISE</h1>
                 </div>
                 <ul>
                     <li>Personal</li>
@@ -78,7 +78,7 @@
                     <div>
                         <label for="">You Send exactly</label>
                         <div>
-                            <input type="text" placeholder="0">
+                            <input type="text" placeholder="0" />
                             <button><img src="/images/us.f6645a01.svg" alt="">
                                 <p>USD</p><i class="fa-solid fa-arrow-down"></i>
                             </button>
@@ -238,6 +238,85 @@
 
         </div>
     </section>
+    <section class="slidesection">
+        <div class="slidesectionmain">
+            <div class="left">
+                <div>
+                    <div class="googleplay">
+                        <i class="fa-solid fa-star"></i>
+
+                        <p>4.8<i class="fa-solid fa-star"></i> on trushpillot 1.3M reviews</p>
+
+
+                    </div>
+                    <h1>FOR PEOPLE GIONG PLACES</h1>
+                </div>
+                <div>
+                    <button class="next"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button class="prev"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+
+            </div>
+            <div class="right">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div>
+                                <figure><img src="/images/pkr.svg" alt=""></figure>
+                                <h1>"They make our life split between two continents,Transfers are simple,very fast "
+                                </h1>
+                                <button>stuart on Trusploit</button>
+                            </div>
+
+
+                        </div>
+                        <div class="swiper-slide">
+                            <div>
+                                <figure><img src="/images/pkr.svg" alt=""></figure>
+                                <h1>"They make our life split between two continents,Transfers are simple,very fast "
+                                </h1>
+                                <button>stuart on Trusploit</button>
+                            </div>
+
+
+                        </div>
+                        <div class="swiper-slide">
+                            <div>
+                                <figure><img src="/images/pkr.svg" alt=""></figure>
+                                <h1>"They make our life split between two continents,Transfers are simple,very fast "
+                                </h1>
+                                <button>stuart on Trusploit</button>
+                            </div>
+
+
+                        </div>
+                        <div class="swiper-slide">
+                            <div>
+                                <figure><img src="/images/pkr.svg" alt=""></figure>
+                                <h1>"They make our life split between two continents,Transfers are simple,very fast "
+                                </h1>
+                                <button>stuart on Trusploit</button>
+                            </div>
+
+
+                        </div>
+                        <div class="swiper-slide">
+                            <div>
+                                <figure><img src="/images/pkr.svg" alt=""></figure>
+                                <h1>"They make our life split between two continents,Transfers are simple,very fast "
+                                </h1>
+                                <button>stuart on Trusploit</button>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
     <section class="section5">
         <video src="/images/1689261569-1689261569-garou-one-punch-man-1920x1080-live-wallpaper.mp4" autoplay></video>
         <div class="section5container">
@@ -247,7 +326,7 @@
                     <p>4.8<i class="fa-solid fa-star"></i> on googleplay 1.3M reviews</p>
                 </div>
                 <h1>
-                    Get the app for managing money everywhere
+                    GET THE APP FOR MANAGING MONEY EVERYWHERE
 
                 </h1>
 
@@ -483,7 +562,7 @@
                         <img src="/images/pkr.svg" alt="">
                         <p>Send money to Pakistan</p>
                     </li>
-                    
+
                 </ul>
 
             </div>
@@ -571,18 +650,19 @@
             </div>
 
             <div class="lastfoot">
-                <ul>
-                    <li>© Wise Payments Limited 2025</li>
-                    <li>Wise is authorised by the Financial Conduct
+                <div>
+                    <p>© Wise Payments Limited 2025</p>
+                    <p>Wise is authorised by the Financial Conduct
                         Authority under the Electronic Money Regulations 2011,
                         Firm Reference <span>900507,</span> for the issuing of
                         electronic money.
 
-                    </li>
-                    <li>
+                    </p>
+                    <p>
                         All investment services are provided by the
                         respective Wise Assets <span>entity in your location</span>
-                    </li>
+                    </p>
+                </div>
                 </ul>
             </div>
 
@@ -591,6 +671,27 @@
         </div>
 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            grabCursor: true,
+            effect: "creative",
+            navigation: {
+                prevEl: '.next',
+                nextEl: '.prev',
+            },
+            creativeEffect: {
+                prev: {
+                    shadow: true,
+                    translate: [0, 0, -400],
+                },
+                next: {
+                    translate: ["100%", 0, 0],
+                },
+            },
+        });
+
+    </script>
 
 </body>
 

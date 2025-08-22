@@ -1927,15 +1927,15 @@ footer {
         display: none;
     }
 
-    .section5 .googleplay {
-        font-size: 11px;
+    .section5 .googleplay i{
+        font-size: 8px;
 
     }
-
-    .section5 .googleplay i {
-        font-size: 11px;
+    .section5 .googleplay p{
+        font-size: 10px;
     }
 
+   
     .section6 {
         justify-content: flex-start;
     }

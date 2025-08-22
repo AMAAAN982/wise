@@ -364,10 +364,10 @@ nav {
 }
 
 
-.rightformmid > div:nth-child(2) {
+.rightformmid>div:nth-child(2) {
     display: flex;
-     background-color: rgba(65, 65, 241, 0.358);
-   
+    background-color: rgba(65, 65, 241, 0.358);
+
     align-items: center;
     gap: 5px;
     padding: 10px;
@@ -424,7 +424,7 @@ nav {
 
 }
 
-.rightformmid  div:nth-child(3)  {
+.rightformmid div:nth-child(3) {
     display: flex;
 
 }
@@ -619,7 +619,7 @@ nav {
 
 .cardsectionmid {
     display: flex;
-    gap: 290px;
+    gap: 390px;
 
 
 }
@@ -1456,6 +1456,9 @@ footer {
         max-width: 600px;
 
     }
+  
+
+   
 
 
     .leftcontent .googleplay p {
@@ -1550,7 +1553,8 @@ footer {
         font-size: 24px;
 
     }
-    .section5 .maincontent div:nth-child(3) p{
+
+    .section5 .maincontent div:nth-child(3) p {
         font-size: 10px;
     }
 
@@ -1629,7 +1633,7 @@ footer {
 
 
     .section2 .cardsection .cardcontainer {
-        flex-wrap: wrap;
+        
         gap: 40px;
 
 
@@ -1931,15 +1935,16 @@ footer {
         display: none;
     }
 
-    .section5 .googleplay i{
+    .section5 .googleplay i {
         font-size: 8px;
 
     }
-    .section5 .googleplay p{
+
+    .section5 .googleplay p {
         font-size: 10px;
     }
 
-   
+
     .section6 {
         justify-content: flex-start;
     }

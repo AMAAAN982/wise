@@ -364,14 +364,17 @@ nav {
 }
 
 
-.rightformmid div:nth-child(2) {
+.rightformmid > div:nth-child(2) {
     display: flex;
-    /*background-color: rgba(65, 65, 241, 0.358);*/
+     background-color: rgba(65, 65, 241, 0.358);
+   
     align-items: center;
     gap: 5px;
     width: 100%;
+    border-radius: 5px;
 
 }
+
 
 .rightformmid div:nth-child(2) i {
     font-size: 12px;
@@ -420,7 +423,7 @@ nav {
 
 }
 
-.rightformmid div:nth-child(3) div {
+.rightformmid  div:nth-child(3)  {
     display: flex;
 
 }
@@ -448,11 +451,11 @@ nav {
 }
 
 .rightformmid div:nth-child(3) div button p {
-    font-size: 20px;
+    font-size: 14px;
 }
 
 .rightformmid div:nth-child(3) div button i {
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .rightformmid div:nth-child(4) {
@@ -472,6 +475,7 @@ nav {
     padding: 15px 5px;
     border-radius: 25px;
     border-width: 1px;
+    display: flex;
 
 }
 

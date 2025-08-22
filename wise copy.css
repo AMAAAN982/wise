@@ -370,6 +370,7 @@ nav {
    
     align-items: center;
     gap: 5px;
+    padding: 10px;
     width: 100%;
     border-radius: 5px;
 
@@ -1548,6 +1549,9 @@ footer {
     .swiper-slide div h1 {
         font-size: 24px;
 
+    }
+    .section5 .maincontent div:nth-child(3) p{
+        font-size: 10px;
     }
 
 

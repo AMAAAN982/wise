@@ -905,6 +905,7 @@ nav {
 
 
     padding: 0px 0px;
+    margin-top: 50px;
 
     /* display: flex;
     justify-content: center;
@@ -1686,6 +1687,9 @@ footer {
 
     .rightform {
         flex-basis: 75%;
+    }
+    .rightformmid div:nth-child(8){
+        flex-wrap: wrap;
     }
 
     .midcontent .leftcontent h1 {

@@ -320,8 +320,8 @@ nav {
 
 .rightform .rightformmid div:nth-child(1) input {
     border: none;
-   padding: 16px 10px;
-    
+    padding: 16px 10px;
+
 
     max-width: 100%;
 
@@ -345,7 +345,7 @@ nav {
 
 
     display: flex;
-    
+
     align-items: center;
     justify-content: center;
     gap: 5px;
@@ -379,7 +379,8 @@ nav {
 
 
 }
-.rightformmid label{
+
+.rightformmid label {
     font-size: 14px;
 }
 
@@ -401,8 +402,8 @@ nav {
 .rightformmid div:nth-child(3) div {
     width: 100%;
     border: solid grey;
-    padding:5px;
-    border-radius: 20px ;
+    padding: 5px;
+    border-radius: 20px;
     display: flex;
     justify-content: space-between;
 
@@ -413,7 +414,7 @@ nav {
     padding: 16px 10px;
 
     border-radius: 10px;
-    
+
     border: none;
 
 
@@ -434,7 +435,7 @@ nav {
     justify-content: center;
     gap: 5px;
     border-radius: 10px;
-    
+
     border: none;
 
 
@@ -606,7 +607,8 @@ nav {
 .card p {
     font-size: 18px;
 }
-.card h1{
+
+.card h1 {
     font-size: 20px;
 }
 
@@ -732,7 +734,7 @@ nav {
 .slidesectionmain {
     display: flex;
     max-width: 1320px;
-   justify-content: center;
+    justify-content: center;
     overflow-x: hidden;
     padding: 0px 60px;
     gap: 30px;
@@ -744,7 +746,7 @@ nav {
 
     display: flex;
     flex-direction: column;
-    
+
 
 
     gap: 40px;
@@ -998,7 +1000,7 @@ nav {
     display: flex;
     background-color: rgba(244, 230, 213, 0.358);
     justify-content: center;
-    
+
 
 
 
@@ -1060,8 +1062,8 @@ nav {
 footer {
     padding: 60px 0px;
     /*background-color: rgb(242, 223, 200);*/
-    
-    
+
+
     background-color: rgba(244, 230, 213, 0.358);
 
 
@@ -1081,12 +1083,12 @@ footer {
 }
 
 .firstfoot {
-      display: flex;
+    display: flex;
     /* justify-content: space-around;  */
     justify-content: space-between;
 
 
-   
+
 
 
 }
@@ -1095,8 +1097,8 @@ footer {
     flex-basis: 23%;
     display: flex;
     flex-direction: column;
-    
-    
+
+
 
 }
 
@@ -1104,13 +1106,14 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    
+
 
     gap: 10px;
-    
+
 
 }
-.firstfoot ul .childUl li{
+
+.firstfoot ul .childUl li {
     font-size: 24px;
 }
 
@@ -1134,9 +1137,9 @@ footer {
 
 .footermid {
     display: flex;
-    
-      display: flex;
-    
+
+    display: flex;
+
     justify-content: space-between;
 
 
@@ -1289,7 +1292,8 @@ footer {
         line-height: 0.9;
 
     }
-    footer{
+
+    footer {
         display: flex;
         justify-content: center;
     }
@@ -1669,12 +1673,14 @@ footer {
 }
 
 @media(max-width:576px) {
+
     .navcontainer .navleft div h1 {
         display: none;
     }
 
+
     .navcontainer {
-        padding: 30px 40px;
+        padding: 10px 30px;
     }
 
     .section1 {
@@ -1688,7 +1694,8 @@ footer {
     .rightform {
         flex-basis: 75%;
     }
-    .rightformmid div:nth-child(8){
+
+    .rightformmid div:nth-child(8) {
         flex-wrap: wrap;
     }
 
@@ -1742,7 +1749,8 @@ footer {
         word-spacing: 0.6px;
         max-width: 300px;
     }
-    .slidesection .right h1{
+
+    .slidesection .right h1 {
         font-size: 19px;
     }
 
@@ -1908,7 +1916,7 @@ footer {
     }
 
     .section5 .maincontent h1 {
-        font-size: 35px;
+        font-size: 31px;
     }
 
     .section5 .maincontent div:nth-child(3) {
@@ -1916,8 +1924,16 @@ footer {
     }
 
     .section5 .googleplay {
-        font-size: 14px;
+        font-size: 11px;
 
+    }
+
+    .section5 .googleplay i {
+        font-size: 11px;
+    }
+
+    .section6 {
+        justify-content: flex-start;
     }
 
     .behind p {
@@ -1927,8 +1943,16 @@ footer {
 
     }
 
+    footer {
+        padding: 40px 0px;
+    }
+
     .footercontainer {
-        gap: 40px;
+        gap: 33px;
+    }
+
+    .lastfoot div {
+        gap: 15px;
     }
 
 
